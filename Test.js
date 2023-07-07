@@ -98,13 +98,13 @@ if (reversed == null) { reversed = false; }
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(30));
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(25));
 
 	// Layer_1
 	this.instance = new lib.Symbol1();
 	this.instance.setTransform(0,-45.85,1,1,0,0,0,88,111.5);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({scaleX:1.1301,scaleY:0.8785,x:0.05,y:-26.6},0).wait(1).to({scaleX:1.2602,scaleY:0.757,y:-7.35},0).wait(1).to({scaleX:1.2692,scaleY:0.764,y:-9.95},0).wait(1).to({scaleX:1.2783,scaleY:0.771,y:-12.6},0).wait(1).to({scaleX:1.0741,scaleY:0.9275,x:0,y:-87},0).wait(1).to({scaleX:0.87,scaleY:1.0839,y:-161.45},0).wait(1).to({scaleX:0.8225,scaleY:1.1307,x:0.05,y:-186.8},0).wait(1).to({scaleX:0.7751,scaleY:1.1775,x:0,y:-212.1},0).wait(1).to({scaleX:0.7276,scaleY:1.2244,x:0.05,y:-237.5},0).wait(1).to({scaleX:0.9407,scaleY:1.0841,y:-250.45},0).wait(1).to({scaleX:1.1538,scaleY:0.9439,y:-263.45},0).wait(1).to({scaleX:1.1537,scaleY:0.8834,y:-281.15},0).wait(1).to({scaleX:1.1536,scaleY:0.8228,x:0,y:-298.85},0).wait(1).to({scaleX:1.1535,scaleY:0.935,y:-330.15},0).wait(1).to({scaleX:1.0914,scaleY:0.9096,x:0.05,y:-296.2},0).wait(1).to({scaleX:1.0293,scaleY:0.8842,y:-262.15},0).wait(1).to({scaleX:0.9672,scaleY:0.8588,x:0,y:-222.2},0).wait(1).to({scaleX:0.9051,scaleY:0.8334,x:0.05,y:-182.25},0).wait(1).to({scaleX:1.0532,scaleY:0.808,y:-124.4},0).wait(1).to({scaleX:1.2013,scaleY:0.7826,x:0,y:-66.65},0).wait(1).to({scaleX:1.462,scaleY:0.7572,y:-53.1},0).wait(1).to({scaleX:1.3593,scaleY:0.807,y:-55.85},0).wait(1).to({scaleX:1.2566,scaleY:0.8568,x:0.05,y:-58.65},0).wait(1).to({scaleX:1.1538,scaleY:0.9065,y:-61.4},0).wait(6));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({scaleX:1.1301,scaleY:0.8785,x:0.05,y:-26.6},0).wait(1).to({scaleX:1.2602,scaleY:0.757,y:-7.35},0).wait(1).to({scaleX:1.2692,scaleY:0.764,y:-9.95},0).wait(1).to({scaleX:1.2783,scaleY:0.771,y:-12.6},0).wait(1).to({scaleX:1.0741,scaleY:0.9275,x:0,y:-87},0).wait(1).to({scaleX:0.87,scaleY:1.0839,y:-161.45},0).wait(1).to({scaleX:0.8225,scaleY:1.1307,x:0.05,y:-186.8},0).wait(1).to({scaleX:0.7751,scaleY:1.1775,x:0,y:-212.1},0).wait(1).to({scaleX:0.7276,scaleY:1.2244,x:0.05,y:-237.5},0).wait(1).to({scaleX:0.9407,scaleY:1.0841,y:-250.45},0).wait(1).to({scaleX:1.1538,scaleY:0.9439,y:-263.45},0).wait(1).to({scaleX:1.1537,scaleY:0.8834,y:-281.15},0).wait(1).to({scaleX:1.1536,scaleY:0.8228,x:0,y:-298.85},0).wait(1).to({scaleX:1.1535,scaleY:0.935,y:-330.15},0).wait(1).to({scaleX:1.0914,scaleY:0.9096,x:0.05,y:-296.2},0).wait(1).to({scaleX:1.0293,scaleY:0.8842,y:-262.15},0).wait(1).to({scaleX:0.9672,scaleY:0.8588,x:0,y:-222.2},0).wait(1).to({scaleX:0.9051,scaleY:0.8334,x:0.05,y:-182.25},0).wait(1).to({scaleX:1.0532,scaleY:0.808,y:-124.4},0).wait(1).to({scaleX:1.2013,scaleY:0.7826,x:0,y:-66.65},0).wait(1).to({scaleX:1.462,scaleY:0.7572,y:-53.1},0).wait(1).to({scaleX:1.2708,scaleY:0.807,x:0.05,y:-55.85},0).wait(1).to({scaleX:1.0795,scaleY:0.8568,y:-58.65},0).wait(1).to({scaleX:0.8883,scaleY:0.9065,x:0,y:-61.4},0).wait(1));
 
 	this._renderFirstFrame();
 
@@ -163,7 +163,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Test_atlas_1.png?1688692540911", id:"Test_atlas_1"}
+		{src:"images/Test_atlas_1.png?1688694490683", id:"Test_atlas_1"}
 	],
 	preloads: []
 };
